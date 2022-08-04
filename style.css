@@ -16,8 +16,8 @@ body {
 
 .hero-container{
     height: 800px;
-    background-color: hsl(351, 100%, 96%, 0.3);
-    background-image: url(.svg);
+    /* background-color: hsl(351, 100%, 96%, 0.3); */
+    background-image: url(./images/hero-bg.svg);
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
