@@ -16,6 +16,7 @@ body {
 
 .hero-container{
     height: 800px;
+    background-color: hsl(351, 100%, 96%, 0.3);
     background-image: url(.svg);
     background-size: cover;
     background-position: center center;
@@ -68,6 +69,12 @@ body {
     margin-right: 24px;
 }
 
+.btn-red:hover {
+    background-color: #fff;
+    color: #E7332B;
+    margin-right: 24px;
+}
+
 .my-btn {
     padding: 11px 28px;
     border: 1px solid #E7332B;
@@ -76,6 +83,11 @@ body {
 .btn-red-outline {
     background-color: #fff;
     color: #E7332B;
+}
+
+.btn-red-outline:hover {
+    background-color: #E7332B;
+    color: #fff;
 }
 
 a{
@@ -175,3 +187,12 @@ h3 {
     color: #514949;
     padding-bottom: 97px;
 }
+
+@media (max-width: 768px){
+    .footer-flex-container {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
