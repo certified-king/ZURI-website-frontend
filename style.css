@@ -127,6 +127,11 @@ section.programs {
     text-align: justify-all;
 }
 
+.program-card-zed {
+    position: relative;
+    z-index: 1;
+}
+
 .program-card img {
     margin-bottom: 48px;
 }
@@ -165,6 +170,35 @@ h3 {
     opacity: 0.9;
 }
 
+.container-fluid {
+    max-width: 1440px !important;
+}
+
+.my-container {
+    max-width: 1240px !important;
+}
+
+.quick-links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.quick-links a {
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 20px;
+    color: #514949;
+    opacity: 0.9;
+}
+
+.footer h3 {
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 24px;
+    color: #514949;
+}
+
 .footer-flex-container {
     display: flex;
     justify-content: space-between;
@@ -174,9 +208,22 @@ h3 {
     padding: 20px;
 }
 
+.contact p,
+.address p {
+    font-size: 14px;
+    line-height: 20px;
+    color: #514949;
+    opacity: 0.9;
+}
+
 .contact-icons img {
     width: 18px !important;
     margin-right: 5px;
+}
+
+footer hr {
+    opacity: 0.2;
+    border: 0.7px solid #514949;
 }
 
 .copyright p {
@@ -188,11 +235,56 @@ h3 {
     padding-bottom: 97px;
 }
 
-@media (max-width: 768px){
+@media (max-width: 768px) {
+
+    .hero-container {
+        height: auto;
+    }
+
+    img.logo-img {
+        display: block;
+        padding-top: 50px;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+
+    .hero h2 {
+        font-size: 28px;
+        line-height: 34px;
+        text-align: center;
+    }
+
+    .btn-div {
+        margin-bottom: 50px;
+    }
+
+
+    button.my-btn {
+        display: block;
+        margin: auto;
+        justify-content: center;
+    }
+
+    h3.heading {
+        margin-top: 60px !important;
+    }
+
     .footer-flex-container {
         flex-direction: column;
         justify-content: center;
         align-items: center;
     }
+
+    .footer-logo {
+        width: 150px;
+        margin-bottom: 15px;
+    }
+
+    .footer-flex-container h3 {
+        font-size: 24px;
+        margin-top: 20px;
+
+    }
 }
+
 
