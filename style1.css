@@ -1,5 +1,5 @@
 body{
-    background-color: #fffafa;
+    background-color: rgb(255, 253, 235);
 }
 
 .navbar{
@@ -87,3 +87,32 @@ hr {
     opacity: 0.2;
     border: 0.7px solid #514949;
 }
+
+.col-sm{
+background-color: #fff;
+padding: 10px;
+margin: 20px;
+border-radius: 10px;
+height: 400px;
+border: none;
+}
+
+.col-sm img{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100px;
+    height: 100px;
+}
+
+.card01{
+background-color: #E7332B;
+position: relative;
+border: 0px;
+transition: ease-out;
+}
+
+.card01:hover{
+    animation: ease-out;
+    }
+
