@@ -1,3 +1,7 @@
+*{
+    box-sizing: border-box;
+}
+
 body{
     background-color: rgb(255, 253, 235);
 }
@@ -105,6 +109,19 @@ border: none;
     height: 100px;
 }
 
+.col-md{
+    background-color: #fff;
+    border-radius: 10px;
+    height: 300px;
+    margin: 20px;
+    padding: 20px;
+}
+
+.col-md img{
+    width: 50px;
+    height: 50px;
+}
+
 .card01{
 background-color: #E7332B;
 position: relative;
@@ -116,3 +133,63 @@ transition: ease-out;
     animation: ease-out;
     }
 
+.container-fluid{
+background-color: #E7332B;
+}
+
+
+.col-6{
+    background-color: rgba(0, 0, 0, 0.692);
+    color: #fff;
+    border-radius: 40px;
+    max-width: 45%;
+    margin: 20px;
+}
+
+.last-container{
+    background-color: #E7332B;
+    position: relative;
+    border-radius: 20px;
+    color: #fff;
+    text-align: center;
+    height: 400px;
+    padding: 100px;
+}
+
+.mains{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 140px;
+    height: 100px;
+}
+
+.curve2-last{
+    position: absolute;
+    bottom: 0;
+    left: 0%;
+    width: 100px;
+    height: 100px;
+}
+
+.bend1{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 120px;
+    height: 120px;
+}
+
+.round-last{
+    position: absolute;
+    top: 50px;
+    left: 100px;
+    width: 180px;
+    height: 180px;
+}
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
