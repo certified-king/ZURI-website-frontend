@@ -15,6 +15,10 @@ body{
     margin-right: 140px;
 }
 
+.sec-img{
+    mix-blend-mode: darken;
+}
+
 .collapse li{
     padding: 0px 30px;
 }
@@ -81,12 +85,6 @@ body{
     font-weight: 700;
 }
 
-.col-6 h3{
-    font-size: 18px;
-    text-align: center;
-    color: #E7332B;
-}
-
 hr {
     opacity: 0.2;
     border: 0.7px solid #514949;
@@ -139,21 +137,51 @@ background-color: #E7332B;
 
 
 .col-6{
-    background-color: rgba(0, 0, 0, 0.692);
+    background-color: #212529;
     color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     border-radius: 40px;
     max-width: 45%;
     margin: 20px;
+    text-align: left;
+    height: 750px;
+    padding: 50px;
+}
+
+.col-6 h3{
+    font-size: 20px;
 }
 
 .last-container{
     background-color: #E7332B;
+    display: flex;
+    flex-direction: column;
     position: relative;
     border-radius: 20px;
     color: #fff;
     text-align: center;
-    height: 400px;
-    padding: 100px;
+    height: 450px;
+    align-items: center;
+    justify-content: center;
+}
+
+.last-container h3{
+    margin: 20px 0 10px 0;
+    font-size: 18px;
+}
+
+.last-container h1{
+    font-size: 50px;
+    margin: 20px 0 20px 0;
+}
+
+.lc-button{
+    color: #E7332B;
+    border-radius: 30px;
+    width: 180px;
+    margin: 20px;
 }
 
 .mains{
@@ -193,3 +221,11 @@ background-color: #E7332B;
     flex-direction: row;
     justify-content: space-between;
 }
+
+.footer1{
+    margin: 30px auto 20px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
