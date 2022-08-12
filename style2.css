@@ -16,6 +16,12 @@
     color: #fff;
     
 }
+/* 
+.navbar{
+    position: fixed;
+    width: 100%;
+    margin-left: 100px;
+} */
 
 .navbar img{
     margin-right: 400px;
@@ -121,9 +127,157 @@
 .main-txt h3{
     color: rgba(19, 17, 17, 0.3);
     font-size: 20px;
-   
 }
 
 span{
     color: #E7332B;
+}
+
+.sec3{
+    margin: 100px 0 20px 0;
+}
+
+.sec3 h1{
+    font-weight: bold;
+}
+
+.sec3b{
+    margin: 0 0 20px 0;
+}
+
+.sec3b h1{
+    font-weight: bold;
+}
+
+.row3-li{
+    display: inline;
+    background-color: #fff;
+    box-shadow: 0 8px 32px 0 #e2e2ebf3;
+    margin: 20px 10px 20px 0;
+    padding: 20px 40px;
+    list-style-type: none;
+    border-radius: 10px;
+}
+
+.row2-li{
+    display: inline;
+    background-color: #fff;
+    box-shadow: 0 8px 32px 0 #e2e2ebf3;
+    margin: 20px 10px 20px 0;
+    padding: 20px;
+    list-style-type: none;
+    border-radius: 10px;
+}
+
+ul{
+    margin: 30px 0 100px 0;
+}
+
+.container-sec3{
+    display: flex;
+    flex-direction: column;
+    height: 600px;
+}
+
+.container-sec3 img{
+    position: absolute;
+    right: 0;
+    top: 1500px;
+}
+
+.main2 {
+    background-color: rgb(255, 248, 229);
+}
+
+.main2-sec{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 1000px;
+    text-align: center;
+}
+
+.main2-sec h1{
+    margin: 80px 0;
+}
+
+.col-sm{
+    margin: 0 10px;
+    background-color: #fff;
+    padding: 50px;
+    border-bottom-right-radius: 20px;
+    color: rgba(0, 0, 0, 0.3);
+}
+
+.col-sm:hover{
+    background-color: black;
+    color: #fff;
+    padding: 50px;
+    border-bottom-right-radius: 20px;
+}
+
+.col-sm h3{
+    font-size: 15px;
+}
+
+.col-sm img{
+    width: 70px;
+    height: 70px;
+    margin: 20px;
+}
+
+.col-lg{
+    margin: 0 10px;
+    background-color: #fff;
+    padding: 50px;
+    border-bottom-right-radius: 20px;
+    color: rgba(0, 0, 0, 0.3);
+    width: 350px;
+    height: 280px;
+}
+
+.col-lg:hover{
+    background-color: black;
+    color: #fff;
+    padding: 50px;
+    border-bottom-right-radius: 20px;
+}
+
+.col-lg h3{
+    font-size: 15px;
+}
+
+.col-lg img{
+    width: 70px;
+    height: 70px;
+    margin: 20px;
+}
+
+.row2{
+    margin: 80px 0;
+}
+
+.row3{
+    margin-top: 30px;
+}
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+.footer-img{
+    margin: 30px;
+}
+
+.social-icons img{
+    margin: 30px 0 20px 0;
+}
+
+.footer h4{
+    font-size: 18px;
+    color: #fff;
 }
